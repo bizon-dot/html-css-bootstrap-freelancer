@@ -79,6 +79,11 @@ main.debug #about {
 footer .footer-top{
     background-color: darkblue;
 }
+
+footer .footer-bottom{
+    background-color: blue;
+}
+
 footer .box{
     min-height: 50px;
     min-width: 50px;
