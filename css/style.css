@@ -3,3 +3,26 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+
+
+/* Navbar */
+
+nav {
+    background-color: darkblue;
+}
+
+
+/* Debug */
+
+main.debug .logo-name{
+    min-height: 70px;
+    min-width:90px;
+    background-color: orange;
+}
+
+main.debug .list-item{
+    min-height: 70px;
+    min-width:70px;
+    background-color: red;
+    margin-right:5px;
+}
