@@ -70,8 +70,8 @@ main.debug #portfolio > .row .box {
 /* About me */
 
 main.debug #about {
-    min-height: 175px;
-    min-width: 250px;
+    /* min-height: 175px;
+    min-width: 250px; */
     padding: 5px ;
     background-color:purple;
 }
