@@ -26,3 +26,51 @@ main.debug .list-item{
     background-color: red;
     margin-right:5px;
 }
+
+main.debug #jumbotron.row {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: red;
+}
+
+main.debug .box {
+    min-height: 50px;
+    min-width: 50px;
+    background-color: lime;
+    margin-top: 10px;
+}
+
+main.debug .jumbo {
+    display:flex;
+    flex-direction: column;
+    
+}
+
+/* /Jumbotron */
+/* Portfolio */
+
+main.debug #portfolio {
+    min-height: 500px;
+    min-width: 500px;
+    background-color: green;
+}
+main.debug #portfolio > .row {
+   width:80%;
+    margin: 0 auto;
+}
+
+main.debug #portfolio > .row .box {
+    /* height: 50px;
+    width: 50px; */
+    background-color:lime;
+    
+}
+/* /Portfolio */
+
+/* About me */
+
+main.debug #about {
+    min-height: 500px;
+    min-width: 500px;
+    background-color:purple;
+}
