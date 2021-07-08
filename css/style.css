@@ -19,6 +19,19 @@ body {
     background-color: #2c3e50;
 }
 
+.bg-lgreen{
+    background-color:#1ABC9C;
+}
+
+.img_box{
+    width: 200px;
+    height: 200px;
+}
+
+.test{
+    display:inline;
+}
+
 /* Generali */
 
 /* Navbar */
@@ -46,16 +59,7 @@ a.nav-link,
 /* Debug */
 /* Jumbotron */
 
-main.debug #jumbotron {
-    background-color: red;
-}
 
-
-
-
-main.debug #jumbotron {
-    background-color: red;
-}
 
 main.debug #jumbotron > .row {
     min-height: 500px;
