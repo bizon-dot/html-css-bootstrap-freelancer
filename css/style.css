@@ -28,9 +28,6 @@ body {
     height: 200px;
 }
 
-.test{
-    display:inline;
-}
 
 /* Generali */
 
@@ -56,6 +53,17 @@ a.nav-link,
 
 /* Navbar */
 
+/* Portfolio */
+
+.portfolio-item{
+    height:200px;
+    width: 300px;
+}
+
+.portfolio-item img{
+    height:100%;
+    width: 100%;
+}
 /* Debug */
 /* Jumbotron */
 
@@ -82,12 +90,12 @@ main.debug .jumbo {
 
 /* /Jumbotron */
 /* Portfolio */
-
+/* 
 main.debug #portfolio {
     min-height: 500px;
     min-width: 500px;
     background-color: green;
-}
+} */
 main.debug #portfolio > .row {
    width:80%;
     margin: 30px auto;
