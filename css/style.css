@@ -1,25 +1,47 @@
+/* Generali */
+
+/* Importo il font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@900&display=swap');
+
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.bg-darkblue {
+    background-color: #2c3e50;
+}
+
+/* Generali */
 
 /* Navbar */
 
 header > .container-fluid {
-    background-color: #00008B;
+    
     position: fixed;
     top: 0;
     right: 0;
 }
 
-.navbar a{
+a.nav-link,
+.light-title{
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bolder;
     color:white;
 }
 
+.light-title{
+    font-size: 18px;
+}
+
+/* Navbar */
 
 /* Debug */
 /* Jumbotron */
