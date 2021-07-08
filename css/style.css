@@ -7,30 +7,38 @@ box-sizing: border-box;
 
 /* Navbar */
 
-nav {
-    background-color: darkblue;
+header > .container-fluid {
+    background-color: #00008B;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:white;
 }
 
 
 /* Debug */
+/* Jumbotron */
 
-main.debug .logo-name{
-    min-height: 70px;
-    min-width:90px;
-    background-color: orange;
-}
-
-main.debug .list-item{
-    min-height: 70px;
-    min-width:70px;
+main.debug #jumbotron {
     background-color: red;
-    margin-right:5px;
 }
 
-main.debug #jumbotron.row {
+
+
+
+main.debug #jumbotron {
+    background-color: red;
+}
+
+main.debug #jumbotron > .row {
     min-height: 500px;
     min-width: 500px;
-    background-color: red;
+    
 }
 
 main.debug .box {
@@ -56,15 +64,10 @@ main.debug #portfolio {
 }
 main.debug #portfolio > .row {
    width:80%;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-main.debug #portfolio > .row .box {
-    /* height: 50px;
-    width: 50px; */
-    background-color:lime;
-    
-}
+
 /* /Portfolio */
 
 /* About me */
